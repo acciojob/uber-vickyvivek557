@@ -10,7 +10,7 @@ public class Cab {
 
     private int perKmRate;
 
-    private boolean available;
+    boolean available;
 
     @OneToOne
     @JoinColumn
