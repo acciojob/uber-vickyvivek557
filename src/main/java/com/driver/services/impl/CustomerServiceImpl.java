@@ -49,7 +49,7 @@ public class CustomerServiceImpl implements CustomerService {
 		Driver bookedDriver = null;
 
 		for(Driver driver : driverList){
-			if(driver.getCab().isAvailable()){
+			if(driver.getCab().getAvailable()){
 				bookedDriver = driver;
 				break;
 			}
